@@ -164,18 +164,60 @@
                         <code><mark>let</mark></code> This is used in the instances where the value of the variable can change.
                         </p>
                         <h2>Naming variables</h2>
-                            <p>Variables in --Javascript are named in camelCase format.That means the first word is lowercase,while 
-                            the rest of the words are initial caps. If the variavle name is just one, use lowercase.<br>
-                            <code>var totalAfterTax = '53.03;'</code><br>
-                            <code>const tip = '8';</code>
-                            </p>
+                    
+                        <ol>
+                            <li><p>Variables in --Javascript are named in camelCase format.That means the first word is lowercase,while 
+                            the rest of the words are initial caps. If the variable name is just one, use lowercase.<br>
+                            <code>var totalAfterTax = '53.03;'</code>
+                            <code>const tip = '8';</code></p>
+                            </li>
 
-            <h2>String Indexing</h2>
-                <p>String indexing allows you to access individual characters making up the string. The location of each character is
-                known as its <mark>index.</mark>String numbering starts from 0. To access a character, put the index of the 
-                inside [ ] square brackets.<br>
-                <code>'James' [0];</code> </p>
-                <b>Try it out</b>
+                            <li><p>You can create a variable and not assign a value to it. This is called <mark>declaring a 
+                            variable</mark>. You can also create a variable and assign a value to it. This is called 
+                            <mark>initializing a variable</mark>.
+                            <code>let losers;</code>-This is declaring a variable
+                            <code>let winners = 5;</code>-This is initializing a variable
+                            </p>
+                            </li>
+
+                            <li><p>When you intialize a variable, if its value changes ,you do not declare it again. 
+                            You just assign a new value to it.
+                            <code>let winners = 5;</code><br>
+                            <code>winners = 10;</code>
+                            </p>
+                            </li>
+
+                            <li><p>When naming your variables avoid keywords, special characters, and spaces. Key words are 
+                            reserved words in Javscript that have a special meaning. Special characters are not 
+                            allowed in variable names apart from the underscore and the dollar sign. Spaces are not 
+                            allowed in variable names. If you want to use more than one word, use camelCase format.
+                            </p>
+                            </li>
+
+                            <li><p>Each statment in Javscript ends with a semicolon. This is not mandatory but it is 
+                            considered best practice to use it.<br>
+                            </p>
+                            </li>
+
+                            <li><p>Comments are used to explain the code. They are not executed by the Javscript engine. 
+                            There are two types of comments in Javscript. Single line comments and multi-line comments.<br>
+                            <code>// This is a single-line comment</code><br>
+                            <code>/* This is a multi-line comment */</code>
+                            </p>
+                            </li>
+
+                            <li><p>JavScript is case sensitive. This means that the variable <code>total</code> is 
+                            different from the variable <code>Total</code>.
+                            </p>
+                            </li>
+                        </ol>
+
+                        <h2>String Indexing</h2>
+                            <p>String indexing allows you to access individual characters making up the string. The location of each character is
+                            known as its <mark>index.</mark>String numbering starts from 0. To access a character, put the index of the 
+                            inside [ ] square brackets.<br>
+                            <code>'James' [0];</code> </p>
+                            <b>Try it out</b>
              
             <h2>Escaping strings</h2>
                 <p>Escaping a character in Javscript, means telling Javscript to ignore a special character, and treat it as part of the 
