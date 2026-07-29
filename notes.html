@@ -218,7 +218,11 @@
                             inside [ ] square brackets.<br>
                             <code>'James' [0];</code> </p>
                             <b>Try it out</b>
-             
+                            <p>The operator for comparing strings is the comparison operator <code>(==)</code>.The operator
+                                <code>=</code> is used for assigning values to variables. The operator <code>==</code> is used for comparing 
+                                values of two variables. The operator </code>===</code> is used for comparing values and data types 
+                                of two variables.
+                            </p>
             <h2>Escaping strings</h2>
                 <p>Escaping a character in Javscript, means telling Javscript to ignore a special character, and treat it as part of the 
                 string. You do this by adding a back slash <code>\</code> You can 
@@ -248,7 +252,7 @@
                     console.log(ripeApple); <br>
                     
                     <span>//This will return an undefined result//</span> <br>
-                    var unripeApple =;
+                    var unripeApple = undefined;
                     console.log(unripeApple);
                 </code>
 
@@ -269,8 +273,8 @@
                 <mark>implicit type coercion</mark>. See the example below <br>
                     <code>Concatenate the following <br>
                         const name = 'Julia'; <br>
-                        const num = '1'; <br>
-                        const position = name + num <br>
+                        const num = 1; <br>
+                        const position = name + num;<br>
 
                         console.log(position);
                     </code>
@@ -278,7 +282,7 @@
 
                 <script>
                     const name = 'Julia ';
-                        const num = '1';
+                        const num = 1;
                         const position = name+num;
 
                         console.log(position);
