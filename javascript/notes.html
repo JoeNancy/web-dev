@@ -299,7 +299,7 @@
 
                     </p><code>while</code> starts with a creation of a
                     variable. This is usually a counter. Use <code>let</code>
-                    and not <code>const</code>since the varialbe is going
+                    and not <code>const</code> since the varialbe is going
                      to change.<br>
                      Write <code>while</code>followed by a condition in 
                      parenthesis. As long as the condition evaluates to true, 
@@ -311,10 +311,15 @@
                      Once the loop reaches a value that makes the condition false,
                      the loop exits and moves to what comes next.
                     <p>
-                    <code> let scoops = 5; <br>
-                        while (scoops > 0) {<br>
+                    <code> let scoops = 5; // declaration of a variable<br>
+                        while (scoops > 0) { // setting the conditin<br>
                         console.log(Another scoop!)
-                        }
+                         <br>
+                        scoops = scoops-1; .<br>
+                        }   // the loop that runs until the 
+                        condition returns false. this is contained in curly braces.<br>
+                        console.log ('life without ice cream isn/'t the same); // This
+                        runs when the condition turns false. 
                     </code>
 
                     
